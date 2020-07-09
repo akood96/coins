@@ -5,8 +5,9 @@
 //  Created by akood on 6/13/19.
 //  Copyright © 2019 akood. All rights reserved.
 //
-
 import UIKit
+import GoogleMobileAds
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        //GADMobileAds.sharedInstance().start(completionHandler: nil)
+        
+        //FirebaseApp.configure()
+        
+        GADMobileAds.configure(withApplicationID: "ca-app-pub-6588245967218697~5726485775")
         // Override point for customization after application launch.
         return true
     }

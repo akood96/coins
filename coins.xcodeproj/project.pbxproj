@@ -3,24 +3,42 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E0BFCDE22E5C05400025899 /* FakeCoins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0BFCDD22E5C05400025899 /* FakeCoins.swift */; };
+		4E1151A322E7C7FE00745F4A /* coin2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4E1151A222E7C7FE00745F4A /* coin2.mp3 */; };
 		4E22E27E22B35ADB00246E08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E22E27D22B35ADB00246E08 /* AppDelegate.swift */; };
-		4E22E28022B35ADB00246E08 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4E22E27F22B35ADB00246E08 /* GameScene.sks */; };
 		4E22E28222B35ADB00246E08 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4E22E28122B35ADB00246E08 /* Actions.sks */; };
 		4E22E28422B35ADB00246E08 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E22E28322B35ADB00246E08 /* GameScene.swift */; };
 		4E22E28622B35ADB00246E08 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E22E28522B35ADB00246E08 /* GameViewController.swift */; };
 		4E22E28922B35ADB00246E08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E22E28722B35ADB00246E08 /* Main.storyboard */; };
 		4E22E28B22B35ADC00246E08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E22E28A22B35ADC00246E08 /* Assets.xcassets */; };
 		4E22E28E22B35ADC00246E08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E22E28C22B35ADC00246E08 /* LaunchScreen.storyboard */; };
+		4E774C5E22C647160045DACD /* theBoldFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E774C5D22C647160045DACD /* theBoldFont.ttf */; };
+		4E7CDCCE22E8083A00FCFCCE /* Back.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7CDCCD22E8083A00FCFCCE /* Back.swift */; };
+		4E81D0C022DF704200573594 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4E81D0BF22DF704200573594 /* GameScene.sks */; };
+		4E81D0C222DF782300573594 /* GameOverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4E81D0C122DF782300573594 /* GameOverScene.sks */; };
+		4E8C137E22DCC8480086F8B3 /* funCs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8C137D22DCC8480086F8B3 /* funCs.swift */; };
+		4E8C138022DCDB870086F8B3 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8C137F22DCDB870086F8B3 /* Data.swift */; };
+		4E97522222CF96A2004D1A06 /* Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E97522122CF96A2004D1A06 /* Ball.swift */; };
+		4E9C4FF023156F1E00F6C884 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E9C4FEF23156F1E00F6C884 /* GoogleService-Info.plist */; };
+		4EA0317A23100C1D000A26D8 /* howTo.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4EA0317923100C1C000A26D8 /* howTo.sks */; };
+		4EA0317C23100C65000A26D8 /* howTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0317B23100C65000A26D8 /* howTo.swift */; };
+		4EAF2E4822C194F50072D405 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF2E4722C194F50072D405 /* GameOverScene.swift */; };
+		4EB0F13922E497170070DB9C /* MainScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4EB0F13822E497170070DB9C /* MainScene.sks */; };
+		4EB0F13B22E497420070DB9C /* MainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB0F13A22E497420070DB9C /* MainScene.swift */; };
+		4EB618C122D7606000CF4885 /* coin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EB618C022D7606000CF4885 /* coin.mp3 */; };
+		4EBD330B231381CA007C0B6E /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EBD330A231381CA007C0B6E /* GameKit.framework */; };
+		D16A35D6442D10936CEDF8BF /* Pods_coins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E33AD1CF249B120EBE0492FE /* Pods_coins.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E0BFCDD22E5C05400025899 /* FakeCoins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeCoins.swift; sourceTree = "<group>"; };
+		4E1151A222E7C7FE00745F4A /* coin2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = coin2.mp3; sourceTree = "<group>"; };
 		4E22E27A22B35ADA00246E08 /* coins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E22E27D22B35ADB00246E08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4E22E27F22B35ADB00246E08 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		4E22E28122B35ADB00246E08 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		4E22E28322B35ADB00246E08 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		4E22E28522B35ADB00246E08 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +46,25 @@
 		4E22E28A22B35ADC00246E08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E22E28D22B35ADC00246E08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E22E28F22B35ADC00246E08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E774C5D22C647160045DACD /* theBoldFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = theBoldFont.ttf; sourceTree = "<group>"; };
+		4E7CDCCD22E8083A00FCFCCE /* Back.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Back.swift; sourceTree = "<group>"; };
+		4E81D0BF22DF704200573594 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameScene.sks; path = ../GameScene.sks; sourceTree = "<group>"; };
+		4E81D0C122DF782300573594 /* GameOverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverScene.sks; sourceTree = "<group>"; };
+		4E8C137D22DCC8480086F8B3 /* funCs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = funCs.swift; sourceTree = "<group>"; };
+		4E8C137F22DCDB870086F8B3 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		4E97522122CF96A2004D1A06 /* Ball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ball.swift; sourceTree = "<group>"; };
+		4E9C4FEF23156F1E00F6C884 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4EA0317923100C1C000A26D8 /* howTo.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = howTo.sks; sourceTree = "<group>"; };
+		4EA0317B23100C65000A26D8 /* howTo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = howTo.swift; sourceTree = "<group>"; };
+		4EAF2E4722C194F50072D405 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		4EB0F13822E497170070DB9C /* MainScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainScene.sks; sourceTree = "<group>"; };
+		4EB0F13A22E497420070DB9C /* MainScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScene.swift; sourceTree = "<group>"; };
+		4EB618C022D7606000CF4885 /* coin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = coin.mp3; sourceTree = "<group>"; };
+		4EBD330A231381CA007C0B6E /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		B419A2E12368830800A37BEF /* coins.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = coins.entitlements; sourceTree = "<group>"; };
+		CDF16ACDFE59A0E004AFE244 /* Pods-coins.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coins.release.xcconfig"; path = "Target Support Files/Pods-coins/Pods-coins.release.xcconfig"; sourceTree = "<group>"; };
+		E33AD1CF249B120EBE0492FE /* Pods_coins.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_coins.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F776B79E0A9FA65645483C44 /* Pods-coins.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coins.debug.xcconfig"; path = "Target Support Files/Pods-coins/Pods-coins.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D16A35D6442D10936CEDF8BF /* Pods_coins.framework in Frameworks */,
+				4EBD330B231381CA007C0B6E /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +85,8 @@
 			children = (
 				4E22E27C22B35ADA00246E08 /* coins */,
 				4E22E27B22B35ADA00246E08 /* Products */,
+				B9944945A6C5B2C2D622FB40 /* Pods */,
+				AE3ACF9C284C1D4013A2F3CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,17 +101,51 @@
 		4E22E27C22B35ADA00246E08 /* coins */ = {
 			isa = PBXGroup;
 			children = (
+				B419A2E12368830800A37BEF /* coins.entitlements */,
 				4E22E27D22B35ADB00246E08 /* AppDelegate.swift */,
-				4E22E27F22B35ADB00246E08 /* GameScene.sks */,
+				4EB0F13822E497170070DB9C /* MainScene.sks */,
+				4E81D0BF22DF704200573594 /* GameScene.sks */,
+				4E81D0C122DF782300573594 /* GameOverScene.sks */,
+				4EA0317923100C1C000A26D8 /* howTo.sks */,
+				4E8C137D22DCC8480086F8B3 /* funCs.swift */,
+				4E8C137F22DCDB870086F8B3 /* Data.swift */,
 				4E22E28122B35ADB00246E08 /* Actions.sks */,
 				4E22E28322B35ADB00246E08 /* GameScene.swift */,
 				4E22E28522B35ADB00246E08 /* GameViewController.swift */,
+				4EAF2E4722C194F50072D405 /* GameOverScene.swift */,
+				4EB0F13A22E497420070DB9C /* MainScene.swift */,
+				4EA0317B23100C65000A26D8 /* howTo.swift */,
+				4E0BFCDD22E5C05400025899 /* FakeCoins.swift */,
+				4E7CDCCD22E8083A00FCFCCE /* Back.swift */,
+				4E97522122CF96A2004D1A06 /* Ball.swift */,
+				4E1151A222E7C7FE00745F4A /* coin2.mp3 */,
+				4EB618C022D7606000CF4885 /* coin.mp3 */,
+				4E774C5D22C647160045DACD /* theBoldFont.ttf */,
 				4E22E28722B35ADB00246E08 /* Main.storyboard */,
 				4E22E28A22B35ADC00246E08 /* Assets.xcassets */,
 				4E22E28C22B35ADC00246E08 /* LaunchScreen.storyboard */,
+				4E9C4FEF23156F1E00F6C884 /* GoogleService-Info.plist */,
 				4E22E28F22B35ADC00246E08 /* Info.plist */,
 			);
 			path = coins;
+			sourceTree = "<group>";
+		};
+		AE3ACF9C284C1D4013A2F3CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EBD330A231381CA007C0B6E /* GameKit.framework */,
+				E33AD1CF249B120EBE0492FE /* Pods_coins.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9944945A6C5B2C2D622FB40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F776B79E0A9FA65645483C44 /* Pods-coins.debug.xcconfig */,
+				CDF16ACDFE59A0E004AFE244 /* Pods-coins.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E22E29222B35ADC00246E08 /* Build configuration list for PBXNativeTarget "coins" */;
 			buildPhases = (
+				AB5602FBFB1D10A5E7000671 /* [CP] Check Pods Manifest.lock */,
 				4E22E27622B35ADA00246E08 /* Sources */,
 				4E22E27722B35ADA00246E08 /* Frameworks */,
 				4E22E27822B35ADA00246E08 /* Resources */,
+				68CAF4C5768D8871FBDF5CEF /* [CP] Embed Pods Frameworks */,
+				6EC20B81E7DAA326D4DB0479 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -105,6 +183,12 @@
 				TargetAttributes = {
 					4E22E27922B35ADA00246E08 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.GameCenter.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -131,9 +215,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E1151A322E7C7FE00745F4A /* coin2.mp3 in Resources */,
 				4E22E28922B35ADB00246E08 /* Main.storyboard in Resources */,
-				4E22E28022B35ADB00246E08 /* GameScene.sks in Resources */,
+				4EA0317A23100C1D000A26D8 /* howTo.sks in Resources */,
+				4EB618C122D7606000CF4885 /* coin.mp3 in Resources */,
+				4E774C5E22C647160045DACD /* theBoldFont.ttf in Resources */,
+				4E9C4FF023156F1E00F6C884 /* GoogleService-Info.plist in Resources */,
 				4E22E28B22B35ADC00246E08 /* Assets.xcassets in Resources */,
+				4E81D0C222DF782300573594 /* GameOverScene.sks in Resources */,
+				4EB0F13922E497170070DB9C /* MainScene.sks in Resources */,
+				4E81D0C022DF704200573594 /* GameScene.sks in Resources */,
 				4E22E28E22B35ADC00246E08 /* LaunchScreen.storyboard in Resources */,
 				4E22E28222B35ADB00246E08 /* Actions.sks in Resources */,
 			);
@@ -141,14 +232,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		68CAF4C5768D8871FBDF5CEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-coins/Pods-coins-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-coins/Pods-coins-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-coins/Pods-coins-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EC20B81E7DAA326D4DB0479 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-coins/Pods-coins-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-coins/Pods-coins-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-coins/Pods-coins-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB5602FBFB1D10A5E7000671 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-coins-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4E22E27622B35ADA00246E08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E0BFCDE22E5C05400025899 /* FakeCoins.swift in Sources */,
+				4E8C138022DCDB870086F8B3 /* Data.swift in Sources */,
 				4E22E28422B35ADB00246E08 /* GameScene.swift in Sources */,
+				4EAF2E4822C194F50072D405 /* GameOverScene.swift in Sources */,
+				4E97522222CF96A2004D1A06 /* Ball.swift in Sources */,
 				4E22E28622B35ADB00246E08 /* GameViewController.swift in Sources */,
+				4EB0F13B22E497420070DB9C /* MainScene.swift in Sources */,
 				4E22E27E22B35ADB00246E08 /* AppDelegate.swift in Sources */,
+				4E7CDCCE22E8083A00FCFCCE /* Back.swift in Sources */,
+				4EA0317C23100C65000A26D8 /* howTo.swift in Sources */,
+				4E8C137E22DCC8480086F8B3 /* funCs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,36 +450,54 @@
 		};
 		4E22E29322B35ADC00246E08 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F776B79E0A9FA65645483C44 /* Pods-coins.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = coins/coins.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = A67FDMZX5J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = coins/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.collectors.coins;
+				PRODUCT_BUNDLE_IDENTIFIER = com.collector.coin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		4E22E29422B35ADC00246E08 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDF16ACDFE59A0E004AFE244 /* Pods-coins.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = coins/coins.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = A67FDMZX5J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = coins/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.collectors.coins;
+				PRODUCT_BUNDLE_IDENTIFIER = com.collector.coin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
